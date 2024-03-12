@@ -25,7 +25,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import Page1 from './git-submodule-child/Page1';
-import Page2 from 'git-submodule-child/submoduleChild/Page2';
+import Page2 from 'git-submodule-child/Page2';
 
 type SectionProps = PropsWithChildren<{
   title: string;
