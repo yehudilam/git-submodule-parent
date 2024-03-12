@@ -24,6 +24,8 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Page1 from './git-submodule-child/Page1';
+import Page2 from 'git-submodule-child/submoduleChild/Page2';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -90,6 +92,8 @@ function App(): React.JSX.Element {
             Read the docs to discover what to do next:
           </Section>
           <LearnMoreLinks />
+          <Page1 />
+          <Page2 />
         </View>
       </ScrollView>
     </SafeAreaView>

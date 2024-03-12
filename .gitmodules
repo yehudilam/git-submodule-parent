@@ -1,0 +1,3 @@
+[submodule "git-submodule-child"]
+	path = git-submodule-child
+	url = git@gitlab.com:yehudilam/git-submodule-child.git
